@@ -1,0 +1,22 @@
+/* Homepage Container */
+.island-render-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  height: 100%;
+  /*background-color: #02A0D2;*/
+  background-color: #24B0ED;
+}
+
+/* Render */
+.island-contain {
+  overflow: visible;
+  max-height: 55%;
+  max-width: 70%;
+}
+
+#island-render {
+  mix-blend-mode: multiply;
+}

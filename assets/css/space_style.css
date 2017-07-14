@@ -1,0 +1,249 @@
+body {
+	overflow: hidden;
+}
+
+/* Background environment gradient */
+#long-bg {
+	display: block;
+	position: absolute;
+}
+
+#space-box {
+	position: absolute;
+}
+
+/*-------------------------------------------------*/
+
+/* PNG star background */
+.star-bg-png-group {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	padding-bottom: 50%;
+	margin-bottom: -50%;
+}
+
+.star-png {
+	position: absolute;
+	width: 100%;
+	transform-origin: 50% 50%;
+}
+
+#star-png-back {
+	/*opacity: 1.0;*/
+	transform: translate(0, -35%) scale(1.25);
+	animation: rotate-png-bg-back 200s linear infinite;
+}
+
+@keyframes rotate-png-bg-back {
+	0% {
+		transform: translate(0, -35%) rotate(0deg) scale(1.25);
+	}
+	100% {
+		transform: translate(0, -35%) rotate(360deg) scale(1.25);
+	}
+}
+
+#star-png-mid-1 {
+	/*opacity: 0.95;*/
+	transform: translate(0, -35%) scale(1.25);
+	animation: rotate-png-bg-mid-1 170s linear infinite;
+}
+
+@keyframes rotate-png-bg-mid-1 {
+	0% {
+		transform: translate(0, -35%) rotate(0deg) scale(1.25);
+	}
+	100% {
+		transform: translate(0, -35%) rotate(360deg) scale(1.25);
+	}
+}
+
+#star-png-front {
+	/*opacity: 0.9;*/
+	transform: translate(0, -35%) scale(1.25);
+	animation: rotate-png-bg-front 140s linear infinite;
+}
+
+@keyframes rotate-png-bg-front {
+	0% {
+		transform: translate(0, -35%) rotate(0deg) scale(1.25);
+	}
+	100% {
+		transform: translate(0, -35%) rotate(360deg) scale(1.25);
+	}
+}
+
+/*-------------------------------------------------*/
+
+/* Filters */
+#glow-filters {
+	display: block;
+	position: absolute;
+}
+
+/*-------------------------------------------------*/
+
+/* Planets */
+.planet {
+	display: block;
+	position: absolute;
+	overflow: visible;
+	width: 100%;
+}
+
+#ring-transparent {
+	overflow: visible;
+	transform: scale(.3);
+}
+
+#ring-internal {
+	overflow: visible;
+}
+
+#orbital-field-gradient {
+	overflow: visible;
+	transform: scale(.09);
+}
+
+#earth {
+	overflow: visible;
+	transform: scale(.11);
+}
+
+/*-------------------------------------------------*/
+
+/* Astro spinner */
+#astro-spinner-box {
+	display: block;
+	position: absolute;
+	overflow: visible;
+	top: 0px;
+}
+
+#astro-spinner {
+	overflow: visible;
+}
+
+#astro-transformer {
+	/*transform-origin: 50% 50%;*/
+	transform: scale(.13);
+	/*animation: rotate-astro 8s linear infinite;*/
+}
+
+@keyframes rotate-astro {
+	0% {
+		transform: scale(.12) rotate(360deg);
+	}
+	100% {
+		transform: scale(.12) rotate(0deg);
+	}
+}
+
+/* Astro horizontal fly */
+.dark-astro-pos {
+	display: block;
+	position: absolute;
+	overflow: visible !important;
+	transform: scale(.135) rotate(90deg);
+	left: 0%;
+	top: 0%;
+}
+
+.dark-astro-pos-animate {
+	display: block;
+	position: absolute;
+	overflow: visible !important;
+	transform: scale(.135) rotate(90deg);
+	left: 0%;
+	top: 0%;
+	animation: astro-horizontal-fly 10s ease-in-out;
+}
+
+@keyframes astro-horizontal-fly {
+	10% {
+		transform: scale(.135) rotate(90deg);
+		left: 0%;
+		top: 0%;
+	}
+	12% {
+		transform: scale(.135) rotate(90deg);
+		left: -3%;
+		top: 0%;
+	}
+	40% {
+		transform: scale(.135) rotate(90deg);
+		left: 0%;
+		top: 0%;
+	}
+	85% {
+		transform: scale(.135) rotate(85deg);
+		left: 110%;
+		top: -10%;
+	}
+	87% {
+		transform: scale(.135) rotate(90deg);
+		left: 110%;
+		top: -75%;
+	}
+	88% {
+		transform: scale(.135) rotate(90deg);
+		left: -5%;
+		top: -75%;
+	}
+	90% {
+		transform: scale(.135) rotate(90deg);
+		left: -5%;
+		top: 0%;
+	}
+	100% {
+		transform: scale(.135) rotate(90deg);
+		left: 0%;
+	}
+}
+
+/*-------------------------------------------------*/
+
+/* Animation kickstart pulse */
+.animation-trigger {
+	display: block;
+	position: absolute;
+	overflow: visible;
+}
+
+.pulse-anim {
+  cursor: crosshair;
+	transform-origin: center;
+	animation: animation-trigger 1.5s infinite;
+}
+
+.pulse-clear {
+	opacity: 0;
+}
+
+@keyframes animation-trigger {
+	0% {
+		transform: scale(1);
+		stroke-width: 1.5;
+		opacity: 1;
+	}
+	100% {
+		transform: scale(1.75);
+		stroke-width: 0;
+		opacity: 0;
+	}
+}
+
+
+
+/*
+  -webkit-animation: ...;
+  -moz-animation: ...;
+  -ms-animation: ...;
+  animation: ...;
+
+	@-webkit-keyframes ...;
+	@-moz-keyframes ...;
+	@-ms-keyframes ...;
+	@keyframes ...;
+*/

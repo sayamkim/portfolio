@@ -1,0 +1,168 @@
+@import "home_page_styles.css";
+@import "splash_page_styles.css";
+@import "resume_pages_linked.css";
+@import "link_styles.css";
+@import "scenes_page_styles.css";
+@import "island_scene_styles.css";
+
+/* FONTS */
+  @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600|Space+Mono:400,700");
+
+  /* --- Switch to WOFF standard --- */
+  @font-face {
+    font-family: Gilroy;
+    src: url("fonts/Gilroy-ExtraBold.otf") format("opentype");
+  }
+  @font-face {
+    font-family: Gilroy-Light;
+    src: url("fonts/Gilroy-Light.otf") format("opentype");
+  }
+
+/* Layout */
+  * {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+  }
+
+  html, body {
+    height: 100%;
+  }
+
+  h1, h2, p, ul {
+    margin: 0 !important;
+    padding: 10px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .hide-overflow {
+    overflow: hidden;
+    display: table;
+  }
+
+  .show-overflow {
+    overflow: visible;
+  }
+
+/* --- Universal Animations --- */
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes fade-out {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes fade-in-out {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+/* --- JS --- */
+  /* Line Animate */
+    .hide {
+      opacity: 0;
+      visibility: hidden;
+    }
+
+    .unhide {
+      opacity: 1;
+      visibility: visible;
+    }
+
+  /* ANIMATIONS */
+    .transition {
+      transition: all .3s linear 0s;
+    }
+
+    .nav-transition {
+      transition: all .7s ease 0s;
+    }
+
+/* --- Universal --- */
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  /*height: 90px;*/
+  height: 15%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+}
+
+#nav-icon-outline, #nav-close {
+  cursor: pointer;
+}
+
+.transit-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 85%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.transit-map {
+  position: absolute;
+  height: 100%;
+  max-width: 90%;
+  max-height: 80%;
+  margin: 0 auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.nav-icon-anim-hp {
+  animation: fade-in 1s ease-in 1s forwards;
+}
+
+.nav-icon-anim-splash {
+  animation: fade-in 1s ease-in .4s forwards;
+}
+
+.nav-icon-anim-scenes {
+  animation: fade-in 1s ease-in 1s forwards;
+}
+
+.nav-icon-fadeout {
+  animation: fade-out 1s ease forwards;
+}

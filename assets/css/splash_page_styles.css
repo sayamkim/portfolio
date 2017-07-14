@@ -1,0 +1,245 @@
+.splash-container {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.splash-bg {
+  background-color: #FAFAFA;
+  /*animation: splash-bg-fade-in 2s ease forwards;*/
+}
+
+@keyframes splash-bg-fade-in {
+  0% {
+    background-color: #FFF;
+  }
+  100% {
+    background-color: #FAFAFA;
+  }
+}
+
+.bg-fade-out {
+  animation: bg-fade-out 2s ease forwards;
+}
+
+@keyframes bg-fade-out {
+  0% {
+    background-color: #FAFAFA;
+  }
+  100% {
+    background-color: #FFF;
+  }
+}
+
+/* ANIMATIONS */
+  /* ---Line Animations--- */
+  .splash-lines {
+    display: block;
+    overflow: visible;
+    height: 100%;
+  }
+
+  .dev-lines {
+    max-width: 47%;
+    max-height: 60%;
+    stroke-dasharray: 600;
+    stroke-dashoffset: 600;
+    animation: dev-fill-in 3.5s ease forwards;
+  }
+
+  @keyframes dev-fill-in {
+    0% {
+      fill-opacity: 0;
+    }
+    65% {
+      fill-opacity: 1;
+    }
+    100% {
+      stroke-dashoffset: 1200;
+    }
+  }
+
+  .dev-eraser {
+    max-width: 47%;
+    max-height: 60%;
+    stroke-dasharray: 600;
+    stroke-dashoffset: 1200;
+    animation: dev-eraser 2s ease-in-out forwards;
+  }
+
+  @keyframes dev-eraser {
+    0% {
+      fill-opacity: 1;
+    }
+    65% {
+      fill-opacity: 0;
+    }
+    100% {
+      stroke-dashoffset: 600;
+      fill-opacity: 0;
+    }
+  }
+
+  .design-lines {
+    max-width: 43%;
+    max-height: 63%;
+    stroke-dasharray: 604;
+    stroke-dashoffset: 604;
+    animation: design-fill-in 2.5s ease 1.75s forwards;
+  }
+
+  @keyframes design-fill-in {
+    to {
+      stroke-dashoffset: 1208;
+    }
+  }
+
+  .design-fill-animation {
+    animation: fill-transition 3.5s ease forwards;
+  }
+
+  @keyframes fill-transition {
+    0% {
+      fill-opacity: 0;
+    }
+    100% {
+      fill-opacity: 1;
+    }
+  }
+
+  .resume-lines {
+    max-width: 50%;
+    max-height: 63%;
+    stroke-dasharray: 900;
+    stroke-dashoffset: 900;
+    animation: resume-fill-in 3.25s ease forwards;
+  }
+
+  @keyframes resume-fill-in {
+    0% {
+      fill-opacity: 0;
+    }
+    65% {
+      fill-opacity: 1;
+    }
+    100% {
+      stroke-dashoffset: 1800;
+    }
+  }
+
+  .resume-eraser {
+    max-width: 50%;
+    max-height: 63%;
+    stroke-dasharray: 900;
+    stroke-dashoffset: 1800;
+    animation: resume-eraser 2s ease-in forwards;
+  }
+
+  @keyframes resume-eraser {
+    0% {
+      fill-opacity: 1;
+    }
+    65% {
+      fill-opacity: 0;
+    }
+    100% {
+      stroke-dashoffset: 900;
+      fill-opacity: 0;
+    }
+  }
+
+  /*Pulse Animations*/
+  .pulse-anim {
+    cursor: crosshair;
+  	transform-origin: center;
+  }
+
+  .resume-splash-link-pulse .pulse-anim {
+    cursor: default;
+  }
+
+  .design-pulse {
+    animation: animation-trigger 2.5s infinite 4.5s;
+  }
+
+  .resume-pulse {
+    animation: animation-trigger 2.5s infinite 3.5s;
+  }
+
+  .dev-pulse {
+    animation: animation-trigger 2.5s infinite 3.75s;
+  }
+
+  @keyframes animation-trigger {
+  	0% {
+      transform: scale(1);
+  		stroke-width: 3;
+  		opacity: 1;
+  	}
+  	100% {
+      transform: scale(2.25);
+  		stroke-width: 0;
+  		opacity: 0;
+  	}
+  }
+
+  .design-pulse-slow {
+    animation: animation-trigger-slow 5s forwards 4.5s;
+  }
+
+  .resume-pulse-slow {
+    animation: animation-trigger-slow 5s forwards 3.5s;
+  }
+
+  .dev-pulse-slow {
+    animation: animation-trigger-slow 5s forwards 3.75s;
+  }
+
+  @keyframes animation-trigger-slow {
+  	0% {
+      transform: scale(1);
+  		stroke-width: 3;
+  		opacity: 1;
+  	}
+  	100% {
+      transform: scale(5);
+  		stroke-width: 0;
+  		opacity: 0;
+  	}
+  }
+
+  .text-hide {
+    animation: fade-out 1.25s ease forwards;
+  }
+
+  /*Category Line and Text Animations*/
+  .visible-pointer {
+    stroke: #455A64;
+  }
+
+  .visible-text {
+    stroke: #455A64;
+    fill: #455A64;
+  }
+
+  .click-text {
+    stroke: #D84532;
+    fill: #D84532;
+  }
+
+  .visible-resume-pointer {
+    stroke: #455A64;
+  }
+
+  .visible-resume-text {
+    stroke: #D84532;
+    fill: #D84532;
+  }
+
+  .resume-click-text {
+    stroke: #D84532;
+    fill: #D84532;
+  }
