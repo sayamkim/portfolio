@@ -6,8 +6,6 @@
 @import "island_scene_styles.css";
 
 /* FONTS */
-  @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600|Space+Mono:400,700");
-
   /* --- Switch to WOFF standard --- */
   @font-face {
     font-family: Gilroy;
@@ -149,6 +147,32 @@
   right: 0;
   bottom: 0;
   z-index: 1;
+}
+
+#stations-inner {
+  fill: #FFF;
+  stroke: #FFF;
+  stroke-width: .35;
+}
+
+#resume-station, #skills-station, #experience-station, #contact-station {
+  fill: #0091EA;
+  stroke: none;
+}
+
+#design-station, #arch-station, #web-station {
+  fill: #45BF3E;
+  stroke: none;
+}
+
+#dev-station, #litmus-station, #sandbox-station {
+  fill: #FFC107;
+  stroke: none;
+}
+
+#scenes-station, #space-station, #island-station, #city-station {
+  fill: #F50057;
+  stroke: none;
 }
 
 .nav-icon-anim-hp {
