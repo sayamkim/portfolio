@@ -113,3 +113,23 @@ a:active {
 .contact-list-links a:active {
   color: #FFA233;
 }
+
+#stations-inner a:link {
+  fill: #FFF;
+  stroke: #FFF;
+}
+
+#stations-inner a:visited {
+  fill: #FFF;
+  stroke: #FFF;
+}
+
+#stations-inner a:hover {
+  fill: #FFF;
+  stroke: #FFF;
+}
+
+#stations-inner a:active {
+  fill: #FFF;
+  stroke: #FFF;
+}

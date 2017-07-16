@@ -1,6 +1,1 @@
-# defaults:
-#   - scope:
-#       path: "assets/img/arch_portfolio.pdf"
-#     values:
-#       title: Architecture
-#       permalink: /design/architecture
+
