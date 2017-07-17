@@ -294,10 +294,11 @@ $("#contact-pulse, #contact-text").on("click", function() {
 // Transit Map Navigation
 //
 var navIcon = $("#nav-icon-outline");
+var navCircle = $("#nav-circle");
 var transitMap = $(".transit-container");
 var navExit = $("#nav-close");
 
-$(navIcon).on("click", function() {
+$("#nav-icon-outline, #nav-circle").on("click", function() {
   transitMap.addClass("nav-transition");
   transitMap.toggleClass("unhide");
 })
