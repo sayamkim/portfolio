@@ -177,11 +177,6 @@
   stroke: none;
 }
 
-/*#space-station, #island-station, #city-station {
-  fill: #FFD05A;
-  stroke: none;
-}*/
-
 .nav-icon-anim-hp {
   animation: fade-in 1s ease-in 1s forwards;
 }
