@@ -79,6 +79,7 @@
 }
 
 .gopher {
+  transform: scale(.165) translate(0px, -770px);
   animation: floater 2.75s ease-in-out alternate infinite;
 }
 
@@ -104,4 +105,8 @@
     transform: scale(.95);
     opacity: .63;
   }
+}
+
+.milk {
+  transform: scale(.75) translate(32.5px, -155px);
 }
