@@ -107,6 +107,10 @@
   }
 }
 
+.home-graphic {
+  transform: scale(1.35) translate(-85px, 190px);
+}
+
 .milk {
   transform: scale(.75) translate(32.5px, -155px);
 }
