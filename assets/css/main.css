@@ -163,17 +163,17 @@
 }
 
 #resume-station, #skills-station, #experience-station, #contact-station {
-  fill: #0091EA;
+  fill: #FFBF40;
   stroke: none;
 }
 
 #design-station, #arch-station, #web-station {
-  fill: #45BF3E;
+  fill: #66CCB9;
   stroke: none;
 }
 
 #space-station, #island-station, #city-station, #dev-station, #litmus-station, #scenes-station, #sandbox-station {
-  fill: #FFC107;
+  fill: #FF5A5A;
   stroke: none;
 }
 
