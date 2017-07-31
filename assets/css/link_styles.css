@@ -28,7 +28,7 @@ a:active {
 .hp-blurb-link a:link {
   stroke: #009CCC;
   fill: #009CCC;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .hp-blurb-link a:visited {
@@ -37,13 +37,13 @@ a:active {
 }
 
 .hp-blurb-link a:hover {
-  stroke: #009CCC;
-  fill: #009CCC;
+  stroke: #008EA5;
+  fill: #008EA5;
 }
 
 .hp-blurb-link a:active {
-  stroke: #FFA233;
-  fill: #FFA233;
+  stroke: #008EA5;
+  fill: #008EA5;
 }
 
 .splash-text-links a:link {
