@@ -28,7 +28,7 @@
     height: 100%;
   }
 
-  h1, h2, p, ul {
+  h1, ul {
     margin: 0 !important;
     padding: 10px;
   }
