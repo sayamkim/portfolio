@@ -4,6 +4,7 @@
 @import "link_styles.css";
 @import "scenes_page_styles.css";
 @import "island_scene_styles.css";
+@import "design_pages.css";
 
 /* FONTS */
   /* --- Switch to WOFF standard --- */
@@ -33,10 +34,10 @@
   }
 
   .container {
-    position: absolute;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     height: 100%;
     top: 0;
     left: 0;
