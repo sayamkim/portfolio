@@ -42,6 +42,10 @@
     height: 100%;
   }
 
+  .splash-lines * {
+    overflow: visible;
+  }
+
   .dev-lines {
     max-width: 47%;
     max-height: 60%;
