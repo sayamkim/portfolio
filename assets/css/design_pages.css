@@ -147,19 +147,20 @@
   margin-left: 5%;
 }
 
-.design-web-graphics {
+.design-web-graphics-hp {
   overflow: visible;
-  width: 90%;
+  width: 92%;
 }
 
 .design-web-graphics-nav {
   overflow: visible;
-  width: 57%;
+  width: 60%;
+  transform:
 }
 
 .design-web-graphics-category {
   overflow: visible;
-  width: 62%;
+  width: 63%;
 }
 
 .design-title, .design-blurb, .sub-design-title, .sub-design-title-2, .sub-design-blurb {
