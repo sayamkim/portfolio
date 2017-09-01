@@ -163,6 +163,11 @@
   width: 63%;
 }
 
+.design-web-graphics-scenes {
+  overflow: visible;
+  width: 36%;
+}
+
 .design-title, .design-blurb, .sub-design-title, .sub-design-title-2, .sub-design-blurb {
   align-self: flex-start;
 }
@@ -265,4 +270,5 @@
 .web-process {
   position: absolute;
   display: block;
+  overflow: visible;
 }
