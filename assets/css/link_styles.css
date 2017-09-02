@@ -133,3 +133,9 @@ a:active {
   fill: #FFF;
   stroke: #FFF;
 }
+
+#design-space-link {
+  fill: #455A64;
+  stroke: #455A64;
+  text-decoration: underline;
+}
