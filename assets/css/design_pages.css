@@ -1,5 +1,4 @@
 .design-flex {
-  background-color: #FAFAFA;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,12 +25,20 @@
   border-top: 3px solid rgba(255, 255, 255, 0.4);
 }
 
+.design-bg-portfolio {
+  background-color: #FAFAFA;
+}
+
 .design-bg-1 {
   background-color: #2196F3;
 }
 
 .design-bg-1-1 {
-  background-color: #F2515D;
+  background-color: #FAFAFA;
+}
+
+.design-bg-space {
+  background-color: #0D0D26;
 }
 
 .design-bg-2 {
@@ -39,7 +46,7 @@
 }
 
 .design-bg-2-1 {
-  background-color: #09091C;
+  background-color: #0D0D26;
 }
 
 .design-column {
@@ -165,12 +172,22 @@
 
 .design-web-graphics-scenes {
   overflow: visible;
-  width: 36%;
+  width: 38%;
+}
+
+.design-web-graphics-planets {
+  overflow: visible;
+  width: 80%;
 }
 
 .design-web-graphics-astro {
   overflow: visible;
-  width: 97%;
+  width: 95%;
+}
+
+.design-web-graphics-comets {
+  overflow: visible;
+  width: 98%;
 }
 
 .design-title, .design-blurb, .sub-design-title, .sub-design-title-2, .sub-design-blurb {
@@ -195,11 +212,18 @@
   font-weight: 700;
   line-height: 20px;
   letter-spacing: .05px;
-  color: #455A64;
   margin-left: 12%;
   margin-right: 10%;
   margin-top: 10px;
   margin-bottom: 0px;
+}
+
+.design-blurb-portfolio {
+  color: #455A64;
+}
+
+.design-blurb-space {
+  color: #FAFAFA;
 }
 
 .sub-design-title {
