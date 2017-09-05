@@ -31,7 +31,7 @@
 }
 
 .design-bg-1-1 {
-  background-color: #EEE;
+  background-color: #F2515D;
 }
 
 .design-bg-2 {
@@ -39,7 +39,7 @@
 }
 
 .design-bg-2-1 {
-  background-color: #9EF2C2;
+  background-color: #09091C;
 }
 
 .design-column {
@@ -166,6 +166,11 @@
 .design-web-graphics-scenes {
   overflow: visible;
   width: 36%;
+}
+
+.design-web-graphics-astro {
+  overflow: visible;
+  width: 97%;
 }
 
 .design-title, .design-blurb, .sub-design-title, .sub-design-title-2, .sub-design-blurb {
