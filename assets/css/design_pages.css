@@ -67,6 +67,7 @@
 }
 
 .design-column-rows {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -90,6 +91,7 @@
 }
 
 .design-right {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -301,20 +303,25 @@
 
 .design-planet {
   position: absolute;
-  display: block;
-  transform: scale(.35);
-  max-width: 75%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 70%;
 }
 
 .design-collage {
   position: absolute;
-  display: block;
-  transform: scale(.5);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   max-width: 75%;
 }
 
 .web-process {
   position: absolute;
-  display: block;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   overflow: visible;
+  max-width: 75%;
 }
