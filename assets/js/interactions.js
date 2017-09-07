@@ -306,3 +306,19 @@ $("#nav-icon-outline, #nav-circle").on("click", function() {
 $(navExit).on("click", function() {
   transitMap.toggleClass("unhide");
 })
+
+// --------------------------------------
+// Fade In On Scroll
+//
+$(document).ready(function() {
+  $(window).scroll(function() {
+    $('.scroll-appear').each(function(i) {
+      var object_bottom = ($(this).offset().top)*1.15;
+      var window_bottom = $(window).scrollTop() + $(window).height();
+
+      if (window_bottom > object_bottom) {
+        $(this).animate({'opacity':'1'}, 500)
+      }
+    })
+  })
+});
