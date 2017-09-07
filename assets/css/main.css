@@ -7,7 +7,7 @@
 @import "design_pages.css";
 
 /* FONTS */
-  /* --- Switch to WOFF standard --- */
+  /* --- Switch to WOFF standard? --- */
   @font-face {
     font-family: Gilroy;
     src: url("fonts/Gilroy-ExtraBold.otf") format("opentype");

@@ -5,6 +5,7 @@
   width: 100%;
   position: absolute;
   top: 0;
+  background-color: #FAFAFA;
 }
 
 .design-content {
@@ -306,7 +307,7 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  max-width: 70%;
+  max-width: 60%;
 }
 
 .design-collage {
@@ -314,7 +315,7 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  max-width: 75%;
+  max-width: 70%;
 }
 
 .web-process {
@@ -324,4 +325,8 @@
   transform: translate(-50%, -50%);
   overflow: visible;
   max-width: 75%;
+}
+
+.scroll-appear {
+  opacity: 0;
 }
