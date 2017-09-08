@@ -313,10 +313,10 @@ $(navExit).on("click", function() {
 $(document).ready(function() {
   $(window).scroll(function() {
     $('.scroll-appear').each(function(i) {
-      var object_bottom = ($(this).offset().top)*1.15;
+      var object_threshold = ($(this).offset().top) + 50;
       var window_bottom = $(window).scrollTop() + $(window).height();
 
-      if (window_bottom > object_bottom) {
+      if (window_bottom > object_threshold) {
         $(this).animate({'opacity':'1'}, 500)
       }
     })

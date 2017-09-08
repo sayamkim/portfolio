@@ -330,3 +330,21 @@
 .scroll-appear {
   opacity: 0;
 }
+
+.construction-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: .5px;
+  color: #FCC107;
+  margin-bottom: 10px;
+}
+
+.construction-blurb {
+  font-family: "Gilroy", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: .05px;
+  color: #455A64;
+  margin-top: 10px;
+}
