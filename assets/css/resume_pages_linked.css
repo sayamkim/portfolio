@@ -254,6 +254,9 @@
   li.react {
     background: url("../logos/skills/react-original.svg") no-repeat left top;
   }
+  li.bootstrap {
+    background: url("../logos/skills/bootstrap-plain.svg") no-repeat left top;
+  }
   li.d3 {
     background: url("../logos/skills/d3js-plain.svg") no-repeat left top;
   }

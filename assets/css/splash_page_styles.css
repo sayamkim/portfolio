@@ -40,7 +40,8 @@
   .splash-lines {
     display: block;
     overflow: visible;
-    height: 100%;
+    /*height: 100%;*/
+    width: 100%;
   }
 
   .splash-lines * {
@@ -48,8 +49,8 @@
   }
 
   .dev-lines {
-    max-width: 47%;
-    max-height: 60%;
+    max-width: 94%;
+    /*max-height: 100%;*/
     stroke-dasharray: 600;
     stroke-dashoffset: 600;
     animation: dev-fill-in 3.5s ease forwards;
@@ -68,8 +69,8 @@
   }
 
   .dev-eraser {
-    max-width: 47%;
-    max-height: 60%;
+    max-width: 94%;
+    /*max-height: 100%;*/
     stroke-dasharray: 600;
     stroke-dashoffset: 1200;
     animation: dev-eraser 2s ease-in-out forwards;
@@ -89,8 +90,8 @@
   }
 
   .design-lines {
-    max-width: 43%;
-    max-height: 63%;
+    max-width: 79%;
+    /*max-height: 63%;*/
     stroke-dasharray: 604;
     stroke-dashoffset: 604;
     animation: design-fill-in 2.5s ease 1.75s forwards;
@@ -116,8 +117,8 @@
   }
 
   .resume-lines {
-    max-width: 50%;
-    max-height: 63%;
+    max-width: 72%;
+    /*max-height: 63%;*/
     stroke-dasharray: 900;
     stroke-dashoffset: 900;
     animation: resume-fill-in 3.25s ease forwards;
@@ -136,8 +137,8 @@
   }
 
   .resume-eraser {
-    max-width: 50%;
-    max-height: 63%;
+    max-width: 72%;
+    /*max-height: 63%;*/
     stroke-dasharray: 900;
     stroke-dashoffset: 1800;
     animation: resume-eraser 2s ease-in forwards;
