@@ -12,17 +12,6 @@ permalink: /developer/scenes/
       <!-- Planet Glow Filters -->
 			<svg id="glow-filters">
 				<defs>
-					<!-- Glow-Duo -->
-					<filter x="-100%" y="-100%" width="300%" height="300%" id="glow-duo">
-						<feGaussianBlur in="SourceGraphic" stdDeviation="10" result="shape-glow-small"/>
-						<feGaussianBlur in="SourceGraphic" stdDeviation="40" result="shape-glow-large"/>
-						<feMerge>
-							<feMergeNode in="shape-glow-small"/>
-							<feMergeNode in="shape-glow-large"/>
-							<feMergeNode in="SourceGraphic"/>
-						</feMerge>
-					</filter>
-
 					<!-- Glow-Duo-Large -->
 					<filter x="-100%" y="-100%" width="300%" height="300%" id="glow-duo-large">
 						<feGaussianBlur in="SourceGraphic" stdDeviation="10" result="shape-glow-small"/>
@@ -30,51 +19,6 @@ permalink: /developer/scenes/
 						<feMerge>
 							<feMergeNode in="shape-glow-small"/>
 							<feMergeNode in="shape-glow-large"/>
-							<feMergeNode in="SourceGraphic"/>
-						</feMerge>
-					</filter>
-
-					<!-- Glow-XLarge -->
-					<filter x="-100%" y="-100%" width="300%" height="300%" id="glow-xlarge">
-						<feGaussianBlur in="SourceGraphic" stdDeviation="35" result="shape-glow"/>
-						<feMerge>
-							<feMergeNode in="shape-glow"/>
-							<feMergeNode in="SourceGraphic"/>
-						</feMerge>
-					</filter>
-
-					<!-- Glow-Large -->
-					<filter x="-100%" y="-100%" width="300%" height="300%" id="glow-large">
-						<feGaussianBlur in="SourceGraphic" stdDeviation="20" result="shape-glow"/>
-						<feMerge>
-							<feMergeNode in="shape-glow"/>
-							<feMergeNode in="SourceGraphic"/>
-						</feMerge>
-					</filter>
-
-					<!-- Glow-Mid -->
-					<filter x="-100%" y="-100%" width="300%" height="300%" id="glow-mid">
-						<feGaussianBlur in="SourceGraphic" stdDeviation="10" result="shape-glow"/>
-						<feMerge>
-							<feMergeNode in="shape-glow"/>
-							<feMergeNode in="SourceGraphic"/>
-						</feMerge>
-					</filter>
-
-					<!-- Glow-Small -->
-					<filter x="-100%" y="-100%" width="300%" height="300%" id="glow-small">
-						<feGaussianBlur in="SourceGraphic" stdDeviation="3" result="shape-glow"/>
-						<feMerge>
-							<feMergeNode in="shape-glow"/>
-							<feMergeNode in="SourceGraphic"/>
-						</feMerge>
-					</filter>
-
-					<!-- Glow-XSmall -->
-					<filter x="-100%" y="-100%" width="300%" height="300%" id="glow-x-small">
-						<feGaussianBlur in="SourceGraphic" stdDeviation="2" result="shape-glow"/>
-						<feMerge>
-							<feMergeNode in="shape-glow"/>
 							<feMergeNode in="SourceGraphic"/>
 						</feMerge>
 					</filter>
